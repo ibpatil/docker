@@ -1,3 +1,2 @@
-FROM centos
+FROM ibpatil/httpd
 ADD . /var/www/html
-RUN yum -y install httpd
